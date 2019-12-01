@@ -52,5 +52,10 @@ namespace UserMaintenance
 
             dlg.Dispose();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+        }
     }
 }
